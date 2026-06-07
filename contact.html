@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&family=Inter:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">YN<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-menu-btn">[ menu ]</button>
+    </div>
+  </nav>
+
+  <main style="padding-top: var(--nav-h);">
+    <section class="section">
+      <div class="container">
+
+        <div class="section-header" style="margin-bottom: 4rem;">
+          <h2 data-index="004 / CONTACT">Get in Touch</h2>
+        </div>
+
+        <div class="contact-grid">
+
+          <div>
+            <p class="contact-intro">
+              Available for freelance projects, commissions, and collaborations.
+              Feel free to reach out — I typically respond within a day or two.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:your@email.com" class="contact-link">
+                <span class="contact-link-label">Email</span>
+                <span class="contact-link-arrow">↗</span>
+              </a>
+              <a href="https://behance.net/yourhandle" target="_blank" rel="noopener" class="contact-link">
+                <span class="contact-link-label">Behance</span>
+                <span class="contact-link-arrow">↗</span>
+              </a>
+              <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener" class="contact-link">
+                <span class="contact-link-label">Instagram</span>
+                <span class="contact-link-arrow">↗</span>
+              </a>
+              <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener" class="contact-link">
+                <span class="contact-link-label">LinkedIn</span>
+                <span class="contact-link-arrow">↗</span>
+              </a>
+              <!-- Add or remove social links as needed -->
+            </div>
+          </div>
+
+          <!-- CONTACT FORM
+               To make this actually send email, use a free service:
+               - Formspree: set action="https://formspree.io/f/YOUR_ID" method="POST"
+               - Netlify Forms: add netlify attribute to the form tag
+               - Web3Forms: similar to Formspree, free tier available
+          -->
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project inquiry, collaboration…" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project…" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message →</button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-copy">© 2025 <span>Your Name</span> — All rights reserved</p>
+      <button class="footer-back-top">↑ Back to top</button>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

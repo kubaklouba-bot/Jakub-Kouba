@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Just_Jaw</title>
+  <meta name="description" content="Digital artist working in 3D, motion design, video editing, and 2D graphics." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="container nav-inner">
+     <a href="index.html" class="nav-logo">
+      <svg viewBox="0 0 30 8" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+        <path d="M8.831,6.938l0,-6.676l6.671,-0l0,6.676l-2.222,0l-0.004,-3.406c-0.037,-0.581 -0.52,-1.04 -1.109,-1.04c-0.59,-0 -1.072,0.459 -1.11,1.04l-0.003,3.406l-2.223,0Z"/>
+        <path d="M5.494,3.529c-0.038,-0.58 -0.52,-1.039 -1.11,-1.039l-3.335,-0l-0,-2.226l6.671,-0l-0,3.41l-0.001,-0c-0.039,1.809 -1.517,3.264 -3.335,3.264c-1.842,0 -3.335,-1.494 -3.335,-3.337l2.223,-0c0,0.614 0.498,1.112 1.112,1.112c0.59,0 1.072,-0.459 1.11,-1.039l-0,-0.145Z"/>
+        <path d="M16.613,6.938l0,-6.671l2.226,0l0,3.407c0.037,0.563 0.493,1.012 1.059,1.038l0.102,0c0.591,-0.027 1.061,-0.514 1.061,-1.111l-0.005,-3.334l2.253,0l-0.003,3.334c0,0.597 0.471,1.084 1.061,1.111l0.103,0c0.555,-0.025 1.004,-0.458 1.055,-1.007l0,-3.438l2.226,0l0,6.671l-11.138,0Z"/>
+      </svg>
+     </a>
+      
+      <!-- <a href="index.html" class="nav-logo">JUST_JAW<span></span></a> -->
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-menu-btn">[ menu ]</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero section">
+    <div class="container">
+      <div class="hero-grid">
+
+        <div class="hero-content">
+          <p class="hero-index">001 / Hero</p>
+          <h1 class="hero-title">
+            Jakub_Kouba<span class="accent"></span>
+          </h1>
+          <div class="hero-btns">
+            <a href="work.html" class="hero-cta">View Work </a>
+            <a href="contact.html" class="hero-cta hero-cta-ghost">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-num accent">3D</div>
+            <div class="hero-stat-label">Animation & Modeling</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">2D</div>
+            <div class="hero-stat-label">Graphics & Illustration</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">MG</div>
+            <div class="hero-stat-label">Motion Graphics</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">VE</div>
+            <div class="hero-stat-label">Video Editing</div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SELECTED WORK PREVIEW -->
+  <section class="section">
+    <div class="container">
+
+      <div class="section-header">
+        <p class="hero-index">002 / Selected Work</p>
+        <h2 class="hero-title">Selected_Work <span class="accent">></span></h2>
+        <a href="work.html" class="label" style="color: var(--accent); letter-spacing: 0.12em;">
+          All Projects →
+        </a>
+      </div>
+
+      <div class="work-grid">
+
+        <!-- Card 1 — replace src with your actual image -->
+        <article class="work-card" data-category="3d" onclick="location.href='work.html'">
+          <div class="work-card-thumb">
+            <div class="work-card-thumb-placeholder">[ image placeholder ]</div>
+            <!-- <img src="assets/images/project-1.jpg" alt="Project title" loading="lazy" /> -->
+          </div>
+          <div class="work-card-body">
+            <div class="work-card-tags">
+              <span class="tag">3D</span>
+              <span class="tag">Blender</span>
+            </div>
+            <h3 class="work-card-title">Project Title One</h3>
+            <p class="work-card-desc">Brief description of the project and what makes it interesting.</p>
+          </div>
+          <span class="work-card-arrow">↗</span>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="work-card" data-category="motion" onclick="location.href='work.html'">
+          <div class="work-card-thumb">
+            <div class="work-card-thumb-placeholder">[ image placeholder ]</div>
+          </div>
+          <div class="work-card-body">
+            <div class="work-card-tags">
+              <span class="tag">Motion</span>
+              <span class="tag">After Effects</span>
+            </div>
+            <h3 class="work-card-title">Project Title Two</h3>
+            <p class="work-card-desc">Brief description of the project and what makes it interesting.</p>
+          </div>
+          <span class="work-card-arrow">↗</span>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="work-card" data-category="video" onclick="location.href='work.html'">
+          <div class="work-card-thumb">
+            <div class="work-card-thumb-placeholder">[ image placeholder ]</div>
+          </div>
+          <div class="work-card-body">
+            <div class="work-card-tags">
+              <span class="tag">Video</span>
+              <span class="tag">Premiere</span>
+            </div>
+            <h3 class="work-card-title">Project Title Three</h3>
+            <p class="work-card-desc">Brief description of the project and what makes it interesting.</p>
+          </div>
+          <span class="work-card-arrow">↗</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-copy">003 / Footer</p>
+      <p class="footer-copy">© 2025 <span>Jakub Kouba</span> — All rights reserved</p>
+      <button class="footer-back-top">↑ Back to top</button>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
