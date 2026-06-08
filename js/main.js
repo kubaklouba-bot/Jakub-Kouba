@@ -62,16 +62,10 @@ if (backTop) {
 ───────────────────────────────────────────── */
 const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
-  contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    // Replace this with your actual form handling (Formspree, Netlify Forms, etc.)
+  contactForm.addEventListener('submit', () => {
     const btn = contactForm.querySelector('.btn-submit');
-    btn.textContent = 'sent —';
-    btn.style.background = 'var(--text-muted)';
-    setTimeout(() => {
-      btn.textContent = 'send message →';
-      btn.style.background = '';
-      contactForm.reset();
-    }, 3000);
+    btn.textContent = 'Sending...';
+    btn.style.opacity = '0.6';
+    // no e.preventDefault() — let the form submit normally to Formspree
   });
 }
