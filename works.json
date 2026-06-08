@@ -1,0 +1,72 @@
+[
+    {
+    "title": "Mattoni YFS",
+    "category": "3d",
+    "tags": ["3D", "Animation", "Cloth Simulation"],
+    "desc": "Mattoni YFS, 3D animation for Instagram.",
+    "thumb": "assets/image-videos/MYFS.jpg",
+    "url": "https://www.instagram.com/reel/DXg7URYjH5v/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    "featured": true
+  },
+
+    {
+    "title": "E-on-Verse VFX",
+    "category": "3d",
+    "tags": ["3D", "VFX", "Animation"],
+    "desc": "cloister work, first short film.",
+    "youtube": "APlyg9-cvxI",
+    "url": "https://www.youtube.com/watch?v=APlyg9-cvxI",
+    "featured": false
+  },
+
+  {
+    "title": "Lumix Panasonic Ad",
+    "category": "personal",
+    "tags": ["Animation", "After Effects", "advanced compositing"],
+    "desc": "Finding the breaking point of my abilities.",
+    "youtube": "mgXmLdLsdDs",
+    "url": "https://youtu.be/mgXmLdLsdDs",
+    "featured": true
+  },
+
+  {
+    "title": "Fenty Beauty Ad",
+    "category": "personal",
+    "tags": ["3D", "Blender", "Davinci Resolve"],
+    "desc": "Mini project, School assignment.",
+   "youtube": "m_w0ceeDvCk",
+    "url": "https://youtu.be/m_w0ceeDvCk",
+    "featured": false
+  },
+
+  {
+    "title": "Montážní video",
+    "category": "3d",
+    "tags": ["Animation", "Strict guidelines", "Longterm collaboration"],
+    "desc": "Colobaoration with Regra Past Company",
+    "youtube": "sgiaW0fyqVg",
+    "url": "https://www.youtube.com/watch?v=sgiaW0fyqVg",
+    "featured": false
+  },
+
+ {
+    "title": "PGM Ultima Ratio",
+    "category": "video",
+    "tags": ["Animation", "Fan project", "advanced compositing"],
+    "desc": "Once again, finding the breaking point of my abilities.",
+    "youtube": "CJZ8oTThBTE",
+    "url": "https://youtube.com/shorts/CJZ8oTThBTE",
+    "featured": true
+  },
+
+  {
+    "title": "Short Film",
+    "category": "personal",
+    "tags": ["Animation", "Davinci Resolve", "First Film"],
+    "desc": "cloister work, first short film.",
+    "youtube": "L3uA62o35LA",
+    "url": "https://youtu.be/L3uA62o35LA",
+    "featured": false
+  }
+  
+]

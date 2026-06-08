@@ -11,11 +11,11 @@
   --bg:        #161616;
   --bg-2:      #111111;
   --bg-3:      #1a1a1a;
-  --border:    #777777;
+  --border:    #1b1b1b;
   --border-hi: #424242;
-  --text:      #e8e8e0;
-  --text-muted:#cacaca;
-  --text-dim:  #444440;
+  --text:      #e7e7e7;
+  --text-muted:#bbbbbb;
+  --text-dim:  #696969;
   --accent:    #da1515;
   --accent-dim:#da1515;
   --font-mono: 'Press Start 2P', monospace;
@@ -113,9 +113,7 @@ nav {
 }
 
 .nav-logo {
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
+  image-rendering: pixelated;
   color: var(--text);
 }
 
@@ -420,9 +418,10 @@ nav {
 }
 
 .work-card-desc {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: var(--text-muted);
   line-height: 1.5;
+  font-family: var(--font-mono);
 }
 
 .work-card-arrow {
@@ -449,15 +448,16 @@ nav {
 ───────────────────────────────────────────── */
 .about-grid {
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 6rem;
-  align-items: start;
 }
 
 .about-text p {
+  font-family: var(--font-mono);
   color: var(--text-muted);
   margin-bottom: 1.25rem;
-  font-size: 0.95rem;
+  font-size: 0.7rem;
   line-height: 1.75;
 }
 
@@ -498,7 +498,7 @@ nav {
 
 .info-block-label {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--accent);
@@ -506,7 +506,8 @@ nav {
 }
 
 .info-block-value {
-  font-size: 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
   color: var(--text-muted);
 }
 
@@ -521,8 +522,9 @@ nav {
 }
 
 .contact-intro {
+  font-family: var(--font-mono);
   color: var(--text-muted);
-  font-size: 0.95rem;
+  font-size: 0.7rem;
   line-height: 1.75;
   margin-bottom: 2rem;
 }
@@ -566,7 +568,7 @@ nav {
 
 .contact-link:hover .contact-link-arrow {
   color: var(--accent);
-  transform: translate(3px, -3px);
+  transform: translate(-3px, 0px);
 }
 
 .contact-form {
@@ -602,12 +604,13 @@ nav {
   border: 1px solid var(--border);
   color: var(--text);
   padding: 0.75rem 1rem;
-  font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
   outline: none;
   transition: border-color var(--transition);
   -webkit-appearance: none;
   resize: vertical;
+
 }
 
 .form-group input:focus,
@@ -635,9 +638,29 @@ nav {
   padding: 0.85rem 2rem;
   cursor: pointer;
   transition: background var(--transition);
+  border-radius: 4px;
+  corner-shape: notch;
 }
 
 .btn-submit:hover { background: var(--text); }
+
+/* ─────────────────────────────────────────────
+   Disclaimer
+───────────────────────────────────────────── */
+.disclaimer {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 2rem;
+}
+
+.disclaimer-copy {
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
 
 /* ─────────────────────────────────────────────
    FOOTER

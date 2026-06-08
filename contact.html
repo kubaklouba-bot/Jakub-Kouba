@@ -3,17 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact — Your Name</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&family=Inter:wght@300;400&display=swap" rel="stylesheet" />
+  <title>Just_Jaw</title>
+  <meta name="description" content="Digital artist working in 3D, motion design, video editing, and 2D graphics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
+  <!-- NAV -->
   <nav>
     <div class="container nav-inner">
-      <a href="index.html" class="nav-logo">YN<span>.</span></a>
+      <a href="index.html" class="nav-logo">
+        <img src="assets/image-videos/Jaw Logo PixelArt.png" alt="Just_Jaw Logo" style="width: 60px; height: auto; image-rendering: pixelated;" />
+      </a>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="work.html">Work</a></li>
@@ -29,7 +33,7 @@
       <div class="container">
 
         <div class="section-header" style="margin-bottom: 4rem;">
-          <h2 data-index="004 / CONTACT">Get in Touch</h2>
+          <p class="hero-index">001 / Get in Touch</p>
         </div>
 
         <div class="contact-grid">
@@ -41,33 +45,29 @@
             </p>
 
             <div class="contact-links">
-              <a href="mailto:your@email.com" class="contact-link">
+              <a href="mailto:kubaklouba@gmail.com" class="contact-link">
                 <span class="contact-link-label">Email</span>
-                <span class="contact-link-arrow">↗</span>
+                <span class="contact-link-arrow">></span>
               </a>
-              <a href="https://behance.net/yourhandle" target="_blank" rel="noopener" class="contact-link">
+              <a href="https://www.behance.net/99skobex" target="_blank" rel="noopener" class="contact-link">
                 <span class="contact-link-label">Behance</span>
-                <span class="contact-link-arrow">↗</span>
+                <span class="contact-link-arrow">></span>
               </a>
-              <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener" class="contact-link">
+              <a href="https://www.instagram.com/_just_a_jaw_/" target="_blank" rel="noopener" class="contact-link">
                 <span class="contact-link-label">Instagram</span>
-                <span class="contact-link-arrow">↗</span>
+                <span class="contact-link-arrow">></span>
               </a>
-              <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener" class="contact-link">
+              <a href="https://www.linkedin.com/in/jakub-kouba-b2198432b/" target="_blank" rel="noopener" class="contact-link">
                 <span class="contact-link-label">LinkedIn</span>
-                <span class="contact-link-arrow">↗</span>
+                <span class="contact-link-arrow">></span>
               </a>
               <!-- Add or remove social links as needed -->
             </div>
           </div>
 
-          <!-- CONTACT FORM
-               To make this actually send email, use a free service:
-               - Formspree: set action="https://formspree.io/f/YOUR_ID" method="POST"
-               - Netlify Forms: add netlify attribute to the form tag
-               - Web3Forms: similar to Formspree, free tier available
-          -->
-          <form class="contact-form">
+
+          <form class="contact-form" action="https://formspree.io/f/xnjyplzv" method="POST">
+            <input type="hidden" name="_subject" value="New message from portfolio website" />
             <div class="form-row">
               <div class="form-group">
                 <label for="name">Name</label>
@@ -86,7 +86,7 @@
               <label for="message">Message</label>
               <textarea id="message" name="message" placeholder="Tell me about your project…" required></textarea>
             </div>
-            <button type="submit" class="btn-submit">Send Message →</button>
+            <button type="submit" class="btn-submit">Send Message ></button>
           </form>
 
         </div>
@@ -96,7 +96,8 @@
 
   <footer>
     <div class="container footer-inner">
-      <p class="footer-copy">© 2025 <span>Your Name</span> — All rights reserved</p>
+      <p class="footer-copy">002 / Footer</p>
+      <p class="footer-copy">© 2025 <span>Jakub Kouba</span> — All rights reserved</p>
       <button class="footer-back-top">↑ Back to top</button>
     </div>
   </footer>

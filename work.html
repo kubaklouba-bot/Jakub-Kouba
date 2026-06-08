@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Work — Your Name</title>
-  <meta name="description" content="Projects spanning 3D, motion design, video editing, and 2D graphics." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&family=Inter:wght@300;400&display=swap" rel="stylesheet" />
+  <title>Just_Jaw</title>
+  <meta name="description" content="Digital artist working in 3D, motion design, video editing, and 2D graphics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -15,7 +15,9 @@
   <!-- NAV -->
   <nav>
     <div class="container nav-inner">
-      <a href="index.html" class="nav-logo">YN<span>.</span></a>
+      <a href="index.html" class="nav-logo">
+        <img src="assets/image-videos/Jaw Logo PixelArt.png" alt="Just_Jaw Logo" style="width: 60px; height: auto; image-rendering: pixelated;" />
+      </a>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="work.html">Work</a></li>
@@ -31,136 +33,27 @@
       <div class="container">
 
         <div class="section-header">
-          <h2 data-index="002 / WORK">All Projects</h2>
+          <p class="hero-index">001 / Work</p>
           <div class="filter-bar">
             <button class="filter-btn active" data-filter="all">All</button>
             <button class="filter-btn" data-filter="3d">3D</button>
             <button class="filter-btn" data-filter="motion">Motion</button>
             <button class="filter-btn" data-filter="video">Video</button>
             <button class="filter-btn" data-filter="2d">2D</button>
+            <button class="filter-btn" data-filter="personal">Personal</button>
           </div>
         </div>
 
-        <div class="work-grid">
+        <!-- cards are injected here by works.js -->
+        <div class="work-grid" id="work-grid-full"></div>
 
-          <!-- ── 3D projects ──────────────────── -->
-          <article class="work-card" data-category="3d">
-            <div class="work-card-thumb">
-              <div class="work-card-thumb-placeholder">[ image ]</div>
-              <!-- <img src="assets/images/project-3d-1.jpg" alt="Project title" loading="lazy" /> -->
-            </div>
-            <div class="work-card-body">
-              <div class="work-card-tags">
-                <span class="tag">3D</span>
-                <span class="tag">Blender</span>
-                <span class="tag">Cycles</span>
-              </div>
-              <h3 class="work-card-title">3D Project Title</h3>
-              <p class="work-card-desc">Short description of the piece, technique, or concept.</p>
-            </div>
-            <span class="work-card-arrow">↗</span>
-          </article>
-
-          <article class="work-card" data-category="3d">
-            <div class="work-card-thumb">
-              <div class="work-card-thumb-placeholder">[ image ]</div>
-            </div>
-            <div class="work-card-body">
-              <div class="work-card-tags">
-                <span class="tag">3D</span>
-                <span class="tag">Cinema 4D</span>
-              </div>
-              <h3 class="work-card-title">Another 3D Project</h3>
-              <p class="work-card-desc">Short description of the piece, technique, or concept.</p>
-            </div>
-            <span class="work-card-arrow">↗</span>
-          </article>
-
-          <!-- ── Motion projects ─────────────── -->
-          <article class="work-card" data-category="motion">
-            <div class="work-card-thumb">
-              <div class="work-card-thumb-placeholder">[ video ]</div>
-              <!-- <video src="assets/videos/motion-1.mp4" autoplay muted loop playsinline></video> -->
-            </div>
-            <div class="work-card-body">
-              <div class="work-card-tags">
-                <span class="tag">Motion</span>
-                <span class="tag">After Effects</span>
-              </div>
-              <h3 class="work-card-title">Motion Design Project</h3>
-              <p class="work-card-desc">Short description of the piece, technique, or concept.</p>
-            </div>
-            <span class="work-card-arrow">↗</span>
-          </article>
-
-          <article class="work-card" data-category="motion">
-            <div class="work-card-thumb">
-              <div class="work-card-thumb-placeholder">[ video ]</div>
-            </div>
-            <div class="work-card-body">
-              <div class="work-card-tags">
-                <span class="tag">Motion</span>
-                <span class="tag">3D</span>
-              </div>
-              <h3 class="work-card-title">Motion + 3D Hybrid</h3>
-              <p class="work-card-desc">Short description of the piece, technique, or concept.</p>
-            </div>
-            <span class="work-card-arrow">↗</span>
-          </article>
-
-          <!-- ── Video projects ──────────────── -->
-          <article class="work-card" data-category="video">
-            <div class="work-card-thumb">
-              <div class="work-card-thumb-placeholder">[ video ]</div>
-            </div>
-            <div class="work-card-body">
-              <div class="work-card-tags">
-                <span class="tag">Video</span>
-                <span class="tag">Premiere</span>
-              </div>
-              <h3 class="work-card-title">Video Edit Project</h3>
-              <p class="work-card-desc">Short description of the piece, technique, or concept.</p>
-            </div>
-            <span class="work-card-arrow">↗</span>
-          </article>
-
-          <!-- ── 2D projects ─────────────────── -->
-          <article class="work-card" data-category="2d">
-            <div class="work-card-thumb">
-              <div class="work-card-thumb-placeholder">[ image ]</div>
-            </div>
-            <div class="work-card-body">
-              <div class="work-card-tags">
-                <span class="tag">2D</span>
-                <span class="tag">Illustrator</span>
-              </div>
-              <h3 class="work-card-title">2D Graphics Project</h3>
-              <p class="work-card-desc">Short description of the piece, technique, or concept.</p>
-            </div>
-            <span class="work-card-arrow">↗</span>
-          </article>
-
-          <article class="work-card" data-category="2d">
-            <div class="work-card-thumb">
-              <div class="work-card-thumb-placeholder">[ image ]</div>
-            </div>
-            <div class="work-card-body">
-              <div class="work-card-tags">
-                <span class="tag">2D</span>
-                <span class="tag">Photoshop</span>
-              </div>
-              <h3 class="work-card-title">Another 2D Project</h3>
-              <p class="work-card-desc">Short description of the piece, technique, or concept.</p>
-            </div>
-            <span class="work-card-arrow">↗</span>
-          </article>
-
-        </div>
       </div>
     </section>
+<div class="container disclaimer" style="justify-content: center; padding: 2rem 0;">
+  <p class="disclaimer-copy">Disclaimer! Not all my work is on YouTube. Check my <span style="color: var(--accent);" href="https://www.instagram.com/just_jaw/">Instagram</span> for more projects!</p>
+</div>
   </main>
 
-  <!-- FOOTER -->
   <footer>
     <div class="container footer-inner">
       <p class="footer-copy">002 / Footer</p>
@@ -170,5 +63,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/works.js"></script>
 </body>
 </html>
